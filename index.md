@@ -45,7 +45,7 @@ Gọi phương thức very
     - thêm các phương thức cho rules
 
     **Lưu ý** hỗ trợ kiểm tra không bỏ trống, email, số điện thoại, nhập lại mật khẩu,
-    kiểm tra ký tự nập vào min max
+    kiểm tra ký tự nập vào min max.
 
     Phương thức hỗ trợ:
         required: yêu câu phải nhập
@@ -54,10 +54,12 @@ Gọi phương thức very
         retypePassword: kiểm tra password nhập lại
         min:[số ký tự] : kiểm tra giá trị nhập vào nhỏ hơn [số ký tư]
         max:[số ký tự] : kiểm tra giá trị nhập vào lớn hơn [số ký tư]
+
 Sử dụng bình bình thường:
     - Gọi hàm Validator()
     - Truyên tham số: id form, class form input, class message error
     Validator(id form, class from input, class message error)
+
 Sự dụng dạng single pages app:
     - Gọi hàm Validator()
     - truyền các tham số vào hàm: id form, class form input, class message error, object
@@ -69,10 +71,12 @@ Sự dụng dạng single pages app:
     
 
 4. Giải thích:
+
 Sử dụng bình thường:
     - Truyên id form để nhận biết cần very form nào
     - Truyền class form input để biết đang thao tác very với input nào
     - Truyền class message error để biết nơi hiểu thị lỗi
+
 Sử dụng dạng single pages app:
     - Truyên object để nhận lại data của form khi qua form không có lỗi
 ```
@@ -80,6 +84,7 @@ Sử dụng dạng single pages app:
 ### Demo
 
 #### 1: Phần form (html)
+
     <form id="form_demo">
         ...
         <div class="form-group">
@@ -96,6 +101,7 @@ Sử dụng dạng single pages app:
     </form>
 
 #### 2: Gọi hàm (javascript)
+
     - Cách thường:
         Validator('#form-demo', '.form-group', '.form-message');
 
