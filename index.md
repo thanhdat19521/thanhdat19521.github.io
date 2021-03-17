@@ -25,10 +25,10 @@ Việc này giúp chúng ta không cần phải nghĩ xem form này chúng ta n�
 - form phải theo quy chuẩn nhất định: 
     <form id>
     ...
-        <div (class)>
+        <div class>
             <label></label> (Không bắt buộc)
             <input name rules /> (thẻ input cân verydate)
-            <span (class)></span> (báo lỗi nếu có)
+            <span class></span> (báo lỗi nếu có)
         </div>
     ...
     </form>
