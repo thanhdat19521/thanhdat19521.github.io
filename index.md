@@ -90,6 +90,14 @@ Sử dụng dạng single pages app:
         ...
     </form>
 
-### Support or Contact
+#### 2: Gọi hàm (javascript)
+    - Cách thường:
+        Validator('#form-demo', '.form-group', '.form-message');
+    - Single pages app:
+        Validator('#form-demo', '.form-group', '.form-message', {
+                onSubmit: function (data) {
+                    console.log(data)
+                }
+            });
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
