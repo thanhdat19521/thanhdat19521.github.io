@@ -39,6 +39,21 @@ Việc này giúp chúng ta không cần phải nghĩ xem form này chúng ta n�
     - Phần <span> đăt một class để định dánh xem đang very ở đâu, là nơi hiển thị lỗi nếu có
 
 3. Sử dụng
+
+Gọi phương thức very
+    - Ở mỗi thẻ input muốn very thì thêm atrb rules
+    - thêm các phương thức cho rules
+
+    **Lưu ý** hỗ trợ kiểm tra không bỏ trống, email, số điện thoại, nhập lại mật khẩu,
+    kiểm tra ký tự nập vào min max
+
+    Phương thức hỗ trợ:
+        required: yêu câu phải nhập
+        email: kiểm tra định dạng email
+        phone: kiểm tra định dạng số điên thoại
+        retypePassword: kiểm tra password nhập lại
+        min:[số ký tự] : kiểm tra giá trị nhập vào nhỏ hơn [số ký tư]
+        max:[số ký tự] : kiểm tra giá trị nhập vào lớn hơn [số ký tư]
 Sử dụng bình bình thường:
     - Gọi hàm Validator()
     - Truyên tham số: id form, class form input, class message error
@@ -51,16 +66,6 @@ Sự dụng dạng single pages app:
                     console.log(data)
                 }
             });
-Gọi phương thức very
-    - Ở mỗi thẻ input muốn very thì thêm atrb rules
-    - thêm các phương thức cho rules
-    **Lưu ý** hỗ trợ kiểm tra không bỏ trống, email, số điện thoại, nhập lại mật khẩu, kiểm tra ký tự nập vào min max
-    required: yêu câu phải nhập
-    email: kiểm tra định dạng email
-    phone: kiểm tra định dạng số điên thoại
-    retypePassword: kiểm tra password nhập lại
-    min:[số ký tự] : kiểm tra giá trị nhập vào nhỏ hơn [số ký tư]
-    max:[số ký tự] : kiểm tra giá trị nhập vào lớn hơn [số ký tư] 
     
 
 4. Giải thích:
@@ -93,6 +98,7 @@ Sử dụng dạng single pages app:
 #### 2: Gọi hàm (javascript)
     - Cách thường:
         Validator('#form-demo', '.form-group', '.form-message');
+
     - Single pages app:
         Validator('#form-demo', '.form-group', '.form-message', {
                 onSubmit: function (data) {
