@@ -17,7 +17,7 @@ Việc này giúp chúng ta không cần phải nghĩ xem form này chúng ta n�
 ### Chi tiết
 
 ```markdown
-**Lưu ý:** Đây là chia sẻ cá nhân
+**Lưu ý** Đây là chia sẻ cá nhân
 
 1. Tải thư viện về:
     - Link tải: https://github.com/thanhdat19521/liberty_velidator
@@ -115,4 +115,5 @@ Sử dụng dạng single pages app:
                 }
             });
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Mọi thắc mặc cần giải đáp xin liên hệ [facebook](https://www.facebook.com/ntdnoel19521/)
+Cảm ơn bạn đã quan tâm đến bài viết!
