@@ -45,7 +45,7 @@ Gọi phương thức very
     - thêm các phương thức cho rules
 
     **Lưu ý** hỗ trợ kiểm tra không bỏ trống, email, số điện thoại, nhập lại mật khẩu,
-    kiểm tra ký tự nập vào min max.
+    kiểm tra ký tự nập vào min max
 
     Phương thức hỗ trợ:
         required: yêu câu phải nhập
