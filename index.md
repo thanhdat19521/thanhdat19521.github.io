@@ -51,6 +51,17 @@ Sự dụng dạng single pages app:
                     console.log(data)
                 }
             });
+Gọi phương thức very
+    - Ở mỗi thẻ input muốn very thì thêm atrb rules
+    - thêm các phương thức cho rules
+    **Lưu ý** hỗ trợ kiểm tra không bỏ trống, email, số điện thoại, nhập lại mật khẩu, kiểm tra ký tự nập vào min max
+    required: yêu câu phải nhập
+    email: kiểm tra định dạng email
+    phone: kiểm tra định dạng số điên thoại
+    retypePassword: kiểm tra password nhập lại
+    min:[số ký tự] : kiểm tra giá trị nhập vào nhỏ hơn [số ký tư]
+    max:[số ký tự] : kiểm tra giá trị nhập vào lớn hơn [số ký tư] 
+    
 
 4. Giải thích:
 Sử dụng bình thường:
