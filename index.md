@@ -2,12 +2,12 @@
 
 ### Giới thiệu
 <!-- You can use the [editor on GitHub](https://github.com/thanhdat19521/thanhdat19521.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.\ -->
-### Khi làm frontend chúng ta chắc hẳn hay gặp những trường hơp cần verydate from.\
+##### Khi làm frontend chúng ta chắc hẳn hay gặp những trường hơp cần verydate from.\
 Ví du: \
     - very from đăng nhập.\
     - very from đăng ký.\
     - very các trườn nhập dữ liệu.\
-    ... .\
+    ...
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
