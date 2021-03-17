@@ -1,10 +1,17 @@
 ## Giới thiệu thiệu thư viện verydator from
 
-You can use the [editor on GitHub](https://github.com/thanhdat19521/thanhdat19521.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+### Giới thiệu
+You can use the [editor on GitHub](https://github.com/thanhdat19521/thanhdat19521.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.\
+Khi làm frontend chúng ta chắc hẳn hay gặp những trường hơp cần verydate from files.\
+Ví du: \
+    - very from đăng nhập files./
+    - very from đăng ký files./
+    - very các trườn nhập dữ liệu files./
+    ... files./
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
