@@ -64,7 +64,7 @@ Sử dụng dạng single pages app:
 ### Demo
 
 #### 1: Phần form (html)
-    <form id="form_demo">\
+    <form id="form_demo">
         ...
         <div class="form-group">
             <label for="email">Email</label>
