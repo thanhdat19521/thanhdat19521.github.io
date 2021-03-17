@@ -97,15 +97,18 @@ Sử dụng dạng single pages app:
             <input type="password" name="password" rules="required|min:6">
             <span class="form-message"></span>
         </div>
+        <div class="form-group">
+            <button class="form-submit">Đăng nhập</button>
+        </div>
         ...
     </form>
 
 #### 2: Gọi hàm (javascript)
 
-    - Cách thường:
+    - Cách thường: sẽ loaded lại trang
         Validator('#form-demo', '.form-group', '.form-message');
 
-    - Single pages app:
+    - Single pages app: không loaded lại trang
         Validator('#form-demo', '.form-group', '.form-message', {
                 onSubmit: function (data) {
                     console.log(data)
