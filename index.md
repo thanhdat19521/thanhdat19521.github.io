@@ -12,7 +12,7 @@ Ví du: \
 
 Nếu mỗi khi gặp những trường hợp trên ta lại đi viết code verydator có phải mất khá nhiều thời gian không?\
 Ta đặt ra câu hỏi: Tại sao ta không tạo ra một thư viện nhỏ dùng để verydator form, có tính tái sử dụng cao\
-Việc này giúp chúng ta không cần phải nghĩ xem form này chúng ta nên very sao, sẽ giúp chúng ta tiết kiệm khá nhiều thời gian... \
+Việc này giúp chúng ta không cần phải nghĩ xem form này chúng ta nên very sao, sẽ giúp chúng ta tiết kiệm khá nhiều thời gian...
 
 ### Chi tiết
 
