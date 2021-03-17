@@ -1,5 +1,5 @@
-## Giới thiệu thiệu thư viện verydator from
-
+# Giới thiệu thiệu thư viện verydator from
+##### Tác giả: [Nguyễn Thành Đạt](https://github.com/thanhdat19521)
 ### Giới thiệu
 <!-- You can use the [editor on GitHub](https://github.com/thanhdat19521/thanhdat19521.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.\ -->
 Khi làm frontend chúng ta chắc hẳn hay gặp những trường hơp cần verydate from.\
