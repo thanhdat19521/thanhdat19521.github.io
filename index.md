@@ -19,22 +19,23 @@ Việc này giúp chúng ta không cần phải nghĩ xem form này chúng ta n�
 ```markdown
 **Lưu ý:** Đây là chia sẻ cá nhân
 
-1. Tải thư viện về [tại đây](https://github.com/thanhdat19521/liberty_velidator)
-- form giao diện không cần bó buộc theo mẫu, phần html && css trong thư viện chỉ để demo
+1. Tải thư viện về:
+    - Link tải: [Link](https://github.com/thanhdat19521/liberty_velidator)
+    - form giao diện không cần bó buộc theo mẫu, phần html && css trong thư viện chỉ để demo
 2. Quy chuẩn code
-- form phải theo quy chuẩn nhất định: 
-    <form id>
-    ...
-        <div class>
-            <label></label> (Không bắt buộc)
-            <input name rules /> (thẻ input cân verydate)
-            <span class></span> (báo lỗi nếu có)
-        </div>
-    ...
-    </form>
-- Phần form đặt một id để định danh form
-- Phần div đặt một class để định danh xem đang very ở đâu
-- Phần span đăt một class để định dánh xem đang very ở đâu, là nơi hiển thị lỗi nếu có
+    - form phải theo quy chuẩn nhất định: 
+        <form id>
+        ...
+            <div class>
+                <label></label> (Không bắt buộc)
+                <input name rules /> (thẻ input cân verydate)
+                <span class></span> (báo lỗi nếu có)
+            </div>
+        ...
+        </form>
+    - Phần form đặt một id để định danh form
+    - Phần div đặt một class để định danh xem đang very ở đâu
+    - Phần span đăt một class để định dánh xem đang very ở đâu, là nơi hiển thị lỗi nếu có
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
