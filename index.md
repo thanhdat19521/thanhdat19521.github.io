@@ -66,18 +66,18 @@ Sử dụng dạng single pages app:
 #### 1: Phần form (html)
     <form id="form_demo">\
         ...
-        <div class="form-group">\
-            <label for="email">Email</label>\
-            <input type="text" name="email" rules="required|email">\
-            <span class="form-message"></span>\
-        </div>\
-        <div class="form-group">\
-            <label for="password">Mật khẩu</label>\
-            <input type="password" name="password" rules="required|min:6">\
-            <span class="form-message"></span>\
-        </div>\
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" name="email" rules="required|email">
+            <span class="form-message"></span>
+        </div>
+        <div class="form-group">
+            <label for="password">Mật khẩu</label>
+            <input type="password" name="password" rules="required|min:6">
+            <span class="form-message"></span>
+        </div>
         ...
-    </form>\
+    </form>
 
 ### Support or Contact
 
