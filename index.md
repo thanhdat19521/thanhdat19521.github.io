@@ -20,32 +20,64 @@ Việc này giúp chúng ta không cần phải nghĩ xem form này chúng ta n�
 **Lưu ý:** Đây là chia sẻ cá nhân
 
 1. Tải thư viện về:
-    - Link tải: [Link](https://github.com/thanhdat19521/liberty_velidator)
+    - Link tải: https://github.com/thanhdat19521/liberty_velidator
     - form giao diện không cần bó buộc theo mẫu, phần html && css trong thư viện chỉ để demo
+
 2. Quy chuẩn code
     - form phải theo quy chuẩn nhất định: 
         <form id>
-        ...
+            ...
             <div class>
                 <label></label> (Không bắt buộc)
                 <input name rules /> (thẻ input cân verydate)
                 <span class></span> (báo lỗi nếu có)
             </div>
-        ...
+            ...
         </form>
-    - Phần form đặt một id để định danh form
-    - Phần div đặt một class để định danh xem đang very ở đâu
-    - Phần span đăt một class để định dánh xem đang very ở đâu, là nơi hiển thị lỗi nếu có
-**Bold** and _Italic_ and `Code` text
+    - Phần <form> đặt một id để định danh form
+    - Phần <div> đặt một class để định danh xem đang very ở đâu
+    - Phần <span> đăt một class để định dánh xem đang very ở đâu, là nơi hiển thị lỗi nếu có
 
-[Link](url) and ![Image](src)
+3. Sử dụng
+Sử dụng bình bình thường:
+    - Gọi hàm Validator()
+    - Truyên tham số: id form, class form input, class message error
+    Validator(id form, class from input, class message error)
+Sự dụng dạng single pages app:
+    - Gọi hàm Validator()
+    - truyền các tham số vào hàm: id form, class form input, class message error, object
+    Validator('#form-2', '.form-group', '.form-message', {
+                onSubmit: function (data) {
+                    console.log(data)
+                }
+            });
+
+4. Giải thích:
+Sử dụng bình thường:
+    - Truyên id form để nhận biết cần very form nào
+    - Truyền class form input để biết đang thao tác very với input nào
+    - Truyền class message error để biết nơi hiểu thị lỗi
+Sử dụng dạng single pages app:
+    - Truyên object để nhận lại data của form khi qua form không có lỗi
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Demo
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/thanhdat19521/thanhdat19521.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#### 1: Phần form (html)
+    <form id="form_demo">\
+        ...
+        <div class="form-group">\
+            <label for="email">Email</label>\
+            <input type="text" name="email" rules="required|email">\
+            <span class="form-message"></span>\
+        </div>\
+        <div class="form-group">\
+            <label for="password">Mật khẩu</label>\
+            <input type="password" name="password" rules="required|min:6">\
+            <span class="form-message"></span>\
+        </div>\
+        ...
+    </form>\
 
 ### Support or Contact
 
