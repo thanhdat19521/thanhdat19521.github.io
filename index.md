@@ -19,9 +19,9 @@ Việc này giúp chúng ta không cần phải nghĩ xem form này chúng ta n�
 ```markdown
 **Lưu ý:** Đây là chia sẻ cá nhân
 
-#### 1. Tải thư viện về [tại đây](https://github.com/thanhdat19521/liberty_velidator)
+1. Tải thư viện về [tại đây](https://github.com/thanhdat19521/liberty_velidator)
 - form giao diện không cần bó buộc theo mẫu, phần html && css trong thư viện chỉ để demo
-#### 2. Quy chuẩn code
+2. Quy chuẩn code
 - form phải theo quy chuẩn nhất định: 
     <form id>
     ...
