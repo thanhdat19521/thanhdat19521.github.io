@@ -115,5 +115,5 @@ Sử dụng dạng single pages app:
                 }
             });
 
-Mọi thắc mặc cần giải đáp xin liên hệ [facebook](https://www.facebook.com/ntdnoel19521/)
+Mọi thắc mặc cần giải đáp xin liên hệ [facebook](https://www.facebook.com/ntdnoel19521/).
 Cảm ơn bạn đã quan tâm đến bài viết!
