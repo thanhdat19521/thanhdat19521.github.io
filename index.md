@@ -20,6 +20,7 @@ Việc này giúp chúng ta không cần phải nghĩ xem form này chúng ta n�
 **Lưu ý** Đây là chia sẻ cá nhân
 
 1. Tải thư viện về:
+
     - Link tải: https://github.com/thanhdat19521/liberty_velidator
     - form giao diện không cần bó buộc theo mẫu, phần html && css trong thư viện chỉ để demo
 
